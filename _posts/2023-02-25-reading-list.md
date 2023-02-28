@@ -1,29 +1,25 @@
 ---
 layout: distill
-title: TBR 
-description: papers relevant to MSc thesis
+title: reading list test 
+description: attempting to fix the blog
 giscus_comments: false
-date: 2023-02-25
+date: 2023-02-28
 
-# Optionally, you can add a table of contents to your post.
-# NOTES:
-#   - make sure that TOC names match the actual section names
-#     for hyperlinks within the post to work correctly.
-#   - we may want to automate TOC generation in the future using
-#     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
-toc:
-  - name: Side note
-  - name: Training without normalization
-  - name: NTK 
-  - name: Mean Field
-  - name: Transformers
-  subsections:
-	- name: Rank collapse
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
----
+authors:
+  - name: Albert Einstein
+    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+    affiliations:
+      name: IAS, Princeton
+  - name: Boris Podolsky
+    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+    affiliations:
+      name: IAS, Princeton
+  - name: Nathan Rosen
+    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+    affiliations:
+      name: IAS, Princeton
+
+bibliography: 2018-12-22-distill.bib
 
 ## Side note
 
@@ -32,7 +28,7 @@ Papers marked with ✅, are the ones I've read in depth (and preferably took not
 There is no particular order to these sections.
 
 ---
-
+<!-- 
 ## Training without normalization
 
 - ✅ Batch Normalization Biases Residual Blocks Towards the Identity Function in Deep Networks
@@ -77,4 +73,4 @@ There is no particular order to these sections.
 
 - Attention is not all you need: pure attention loses rank doubly exponentially with depth
 - Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse
-- ✅ ReZero is All You Need: Fast Convergence at Large Depth
+- ✅ ReZero is All You Need: Fast Convergence at Large Depth -->
