@@ -1,9 +1,9 @@
 ---
 layout: distill
 title: reading list for my thesis
-description: an example of a distill-style blog post and main elements
+description: aan epic reading list
 giscus_comments: true
-date: 2021-05-25
+date: 2023-05-25
 
 authors:
   - name: Albert Einstein
