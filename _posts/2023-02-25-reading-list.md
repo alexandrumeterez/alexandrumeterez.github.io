@@ -3,7 +3,7 @@ layout: distill
 title: reading list for my thesis
 description: aan epic reading list
 giscus_comments: true
-date: 2023-05-25
+date: 2023-02-25
 
 authors:
   - name: Albert Einstein
