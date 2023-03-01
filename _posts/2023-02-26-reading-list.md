@@ -58,6 +58,7 @@ There is no particular order to these sections.
 
 ## Mean Field
 
+- ✅ Exponential expressivity in deep neural networks through transient chaos
 - Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice
 - Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks
 - Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks
