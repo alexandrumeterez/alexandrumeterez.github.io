@@ -23,6 +23,7 @@ toc:
   - name: NTK
   - name: Mean Field
   - name: Transformers
+  - name: Misc
     
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -30,6 +31,8 @@ toc:
 ---
 
 ## Side note
+
+❌ Reminder to myself: these notes **should not, under any circumstance, be copy-pasted into the thesis/paper, without rewriting them**. These are simply study notes and the wording **is not original**, hence copy-pasting is considered **plagiarism**. ❌
 
 Papers marked with ✅, are the ones I've read in depth (and preferably took notes on).
 
@@ -40,7 +43,7 @@ There is no particular order to these sections.
 ## Training without normalization
 
 - ✅ Batch Normalization Biases Residual Blocks Towards the Identity Function in Deep Networks
-- Fixup Initialization: Residual Learning Without Normalization
+- ✅ Fixup Initialization: Residual Learning Without Normalization
 
 ---
 
@@ -82,3 +85,8 @@ There is no particular order to these sections.
 - Attention is not all you need: pure attention loses rank doubly exponentially with depth
 - Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse
 - ✅ ReZero is All You Need: Fast Convergence at Large Depth
+
+---
+
+## Misc
+- $L_2$ L2 Regularization versus Batch and Weight Normalization

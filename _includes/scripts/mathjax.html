@@ -2,9 +2,11 @@
   <!-- MathJax -->
   <script type="text/javascript">
     window.MathJax = {
+      loader: {load: ['[tex]/amsmath', '[tex]/amssymb']},
       tex: {
         tags: 'ams',
-        inlineMath: [['$', '$'], ['\\(', '\\)'], ['$$', '$$']]
+        inlineMath: [['$', '$'], ['\\(', '\\)'], ['$$', '$$']],
+        packages: {'[+]': ['amsmath', 'amssymb']}
       }
     };
   </script>
