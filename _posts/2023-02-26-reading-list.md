@@ -2,14 +2,8 @@
 layout: distill
 title: reading list
 description: papers relevant for my msc thesis
-giscus_comments: true
+giscus_comments: false
 date: 2023-02-25
-
-authors:
-  - name: Alexandru Meterez
-    url: "https://alexandrumeterez.github.io"
-    affiliations:
-      name: ETH Zurich
 
 # bibliography: 2018-12-22-distill.bib
 
