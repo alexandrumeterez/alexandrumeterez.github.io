@@ -21,19 +21,19 @@ authors:
 #     jekyll-toc plugin (https://github.com/toshimaru/jekyll-toc).
 toc:
   - name: Side note
-  - name: Training without normalization
-  - name: NTK 
-  - name: Mean Field
-  - name: Transformers
-  subsections:
-	- name: Rank collapse
     # if a section has subsections, you can add them as follows:
     # subsections:
     #   - name: Example Child Subsection 1
     #   - name: Example Child Subsection 2
+  - name: Training without normalization
+  - name: NTK
+  - name: Mean Field
+  - name: Transformers
     
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
+
+---
 
 ## Side note
 
