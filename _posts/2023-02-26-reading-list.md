@@ -21,7 +21,7 @@ toc:
     #   - name: Example Child Subsection 2
   - name: Training without normalization
   - name: NTK
-  - name: Mean Field
+  - name: Mean Field, Dynamical Isometry and designing inits
   - name: Transformers
   - name: Misc
     
@@ -56,9 +56,10 @@ There is no particular order to these sections.
 
 ---
 
-## Mean Field
+## Mean Field, Dynamical Isometry and designing inits
 
 - ✅ Exponential expressivity in deep neural networks through transient chaos
+- Deep Information Propagation
 - Resurrecting the sigmoid in deep learning through dynamical isometry: theory and practice
 - Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks
 - Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks
@@ -75,7 +76,6 @@ There is no particular order to these sections.
 - Deep Learning without Shortcuts: Shaping the Kernel with Tailored Rectifiers
 - Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation
 - [https://transformer-circuits.pub/2021/framework/index.html]
-- [https://transformer-circuits.pub/2021/framework/index.html]
 - Infinite attention: NNGP and NTK for deep attention networks
 - [https://hyunjik11.github.io/talks/Attention_the_Analogue_of_Kernels_in_Deep_Learning.pdf]
 
@@ -83,8 +83,8 @@ There is no particular order to these sections.
 
 ### Rank collapse
 
-- Attention is not all you need: pure attention loses rank doubly exponentially with depth
-- Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse
+- ✅ Attention is not all you need: pure attention loses rank doubly exponentially with depth
+- ✅ Signal Propagation in Transformers: Theoretical Perspectives and the Role of Rank Collapse
 - ✅ ReZero is All You Need: Fast Convergence at Large Depth
 
 ---
