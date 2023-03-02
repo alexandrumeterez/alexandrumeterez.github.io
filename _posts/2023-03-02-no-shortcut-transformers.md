@@ -3,7 +3,7 @@ layout: distill
 title: Deep Transformers wihtout Shortcuts - Modifying Self-Attention for Faithful Signal Propagation
 description: notes on He et al.
 giscus_comments: false
-date: 2023-02-26
+date: 2023-03-02
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
