@@ -74,7 +74,7 @@ There is no particular order to these sections.
 
 - Rapid training of deep neural networks without skip connections or normalization layers using Deep Kernel Shaping
 - Deep Learning without Shortcuts: Shaping the Kernel with Tailored Rectifiers
-- Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation
+- ✅ Deep Transformers without Shortcuts: Modifying Self-attention for Faithful Signal Propagation
 - [https://transformer-circuits.pub/2021/framework/index.html]
 - Infinite attention: NNGP and NTK for deep attention networks
 - [https://hyunjik11.github.io/talks/Attention_the_Analogue_of_Kernels_in_Deep_Learning.pdf]
