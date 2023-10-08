@@ -11,15 +11,44 @@ Email: alexandrumeterez@gmail.com \n
 \[[https://scholar.google.com/citations?user=wSrCMa4AAAAJ&hl=en Google Scholar]\]\[[CV.pdf Curriculum Vitae]\] \n
 ~~~
 
-== About me
-I'm currently a MSc student at ETH Zürich. I am mainly interested in deep learning theory and the mathematical foundations of AI, as well as the applications of AI to healthcare. 
+I'm currently a Data Science MSc. student at [https://ethz.ch/en.html ETH Zürich], advised by [https://scholar.google.com/citations?user=tQuQ1FwAAAAJ&hl=en Prof. Gunnar Rätsch]. Previously, I was a BSc. student at [https://upb.ro/en/ Politehnica University of Bucharest] under the supervision of [https://scholar.google.com/citations?user=HYZAnoYAAAAJ&hl=en Prof. Iuliu Vasilescu]. During my studies I have completed internships at [https://www.zurich.ibm.com/ IBM Research] and [https://www.adobe.com/ Adobe]. I am mainly interested in deep learning theory and the mathematical foundations of AI, as well as the applications of AI to healthcare. My main research interests are in:
+- /Theory/: Deep Learning Theory, Optimization, Theory of Foundation Models
+- /Applications/: Bioinformatics, AI in Healthcare
 
-== Education 
-- MSc. in Data Science, [https://ethz.ch/en.html ETH Zürich]
-    -- Advisor: [https://scholar.google.com/citations?user=tQuQ1FwAAAAJ&hl=en Prof. Gunnar Rätsch]
-- BSc. in Computer Science, [https://upb.ro/en/ Politehnica University of Bucharest]
-    -- Advisor: [https://scholar.google.com/citations?user=HYZAnoYAAAAJ&hl=en Prof. Iuliu Vasilescu]
+In my free time, I like to [https://github.com/alexandrumeterez tinker with various technologies], [https://www.goodreads.com/user/show/119387543-alexandru-meterez read] and ride or fix my bike. 
 
-== Research Interests 
-- Deep Learning Theory, Optimization, Theory of Foundation Models
-- Bioinformatics, AI in Healthcare
+{{<a id="research"></a>}}
+== Research
+\*: Equal contribution
+
+==== Publications
+- \[1\] Aligning distant sequences to graphs using long seed sketches with Amir Joudaki\*, *Alexandru Meterez\**, Harun Mustafa, Ragnar Groot Koerkamp, Andre Kahles, Gunnar Rätsch. [https://genome.cshlp.org/content/early/2023/04/18/gr.277659.123.abstract /Genome Research 2023/]
+
+- \[2\] Towards Workflows for the Use of AI Foundation Models in Visual Inspection Applications, with Mattia Rigotti, Diego Antognini, Roy Assaf, Kagan Bakirci, Thomas Frick, Ioana Giurgiu, Klára Janoušková, Filip Janicki, Husam Jubran, Cristiano Malossi, *Alexandru Meterez*, Florian Scheidegger. [https://onlinelibrary.wiley.com/doi/full/10.1002/cepa.2141 /EUROSTRUCT 2023/]
+
+==== Preprints
+
+- \[3\] Towards Training Without Depth Limits: Batch Normalization Without Gradient Explosion, with *Alexandru Meterez\**, Amir Joudaki\*, Francesco Orabona, Alexander Immer, Gunnar Rätsch, Hadi Daneshmand. [https://arxiv.org/abs/2310.02012 /arXiv 2023/]
+
+- \[4\] An effective machine learning approach for predicting ecosystem CO2 assimilation across space and time, with Piersilvio De Bartolomeis\*, * Alexandru Meterez\**, Zixin Shu\*, Benjamin David Stocker. [https://egusphere.copernicus.org/preprints/2023/egusphere-2023-1826/ /EGUsphere 2023/]
+
+{{<a id="collabs"></a>}}
+== Collaborators
+I am extremely grateful to work with brilliant advisors who have shaped my future as a researcher.
+
+==== Academic
+- Prof. Gunnar Rätsch, ETH Zürich
+- Prof. Francesco Orabona, KAUST
+- Prof. Iuliu Vasilescu, UPB
+- Prof. Benjamin David Stocker, ETH Zürich 
+- Amir Joudaki, ETH Zürich
+- Hadi Daneshmand, MIT
+- Alexander Immer, ETH Zürich
+- Harun Mustafa, ETH Zürich
+- Ragnar Groot Koerkamp, ETH Zürich
+- Andre Kahles, ETH Zürich
+
+==== Industry
+- Tiberiu Boros, Adobe
+- Florian Scheidegger, IBM Research
+- Cristiano Malossi, IBM Research

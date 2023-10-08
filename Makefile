@@ -4,4 +4,4 @@ clean :
 
 .PHONE : website
 website : 
-	./jemdoc -c mysite.conf *.jemdoc
+	python jem/jemdoc.py index.jemdoc
