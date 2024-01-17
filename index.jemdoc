@@ -18,21 +18,23 @@ I'm currently a Data Science MSc. student at [https://ethz.ch/en.html ETH Züric
 In my free time, I like to [https://github.com/alexandrumeterez tinker with various technologies], [https://www.goodreads.com/user/show/119387543-alexandru-meterez read] and ride or fix my bike. 
 
 == News
+- The work I've done during my MSc thesis [1] was accepted at *ICLR 2024*! 🎉🎉
 - Started an internship at *MPI Tuebingen* (through ELLIS) with Antonio Orvieto on Deep Learning theory
-- My first theoretical paper \[3\] is now available on arXiv
+- My first theoretical paper \[1\] is now available on arXiv
 
 {{<a id="research"></a>}}
 == Research
 \*: Equal contribution
 
 ==== Publications
-- \[1\] Aligning distant sequences to graphs using long seed sketches with Amir Joudaki\*, *Alexandru Meterez\**, Harun Mustafa, Ragnar Groot Koerkamp, Andre Kahles, Gunnar Rätsch. [https://genome.cshlp.org/content/early/2023/04/18/gr.277659.123.abstract /Genome Research 2023/]
+- \[1\] Towards Training Without Depth Limits: Batch Normalization Without Gradient Explosion, with *Alexandru Meterez\**, Amir Joudaki\*, Francesco Orabona, Alexander Immer, Gunnar Rätsch, Hadi Daneshmand. [https://arxiv.org/abs/2310.02012 /ICLR 2024/]
 
-- \[2\] Towards Workflows for the Use of AI Foundation Models in Visual Inspection Applications, with Mattia Rigotti, Diego Antognini, Roy Assaf, Kagan Bakirci, Thomas Frick, Ioana Giurgiu, Klára Janoušková, Filip Janicki, Husam Jubran, Cristiano Malossi, *Alexandru Meterez*, Florian Scheidegger. [https://onlinelibrary.wiley.com/doi/full/10.1002/cepa.2141 /EUROSTRUCT 2023/]
+- \[2\] Aligning distant sequences to graphs using long seed sketches with Amir Joudaki\*, *Alexandru Meterez\**, Harun Mustafa, Ragnar Groot Koerkamp, Andre Kahles, Gunnar Rätsch. [https://genome.cshlp.org/content/early/2023/04/18/gr.277659.123.abstract /Genome Research 2023/]
+
+- \[3\] Towards Workflows for the Use of AI Foundation Models in Visual Inspection Applications, with Mattia Rigotti, Diego Antognini, Roy Assaf, Kagan Bakirci, Thomas Frick, Ioana Giurgiu, Klára Janoušková, Filip Janicki, Husam Jubran, Cristiano Malossi, *Alexandru Meterez*, Florian Scheidegger. [https://onlinelibrary.wiley.com/doi/full/10.1002/cepa.2141 /EUROSTRUCT 2023/]
 
 ==== Preprints
 
-- \[3\] Towards Training Without Depth Limits: Batch Normalization Without Gradient Explosion, with *Alexandru Meterez\**, Amir Joudaki\*, Francesco Orabona, Alexander Immer, Gunnar Rätsch, Hadi Daneshmand. [https://arxiv.org/abs/2310.02012 /arXiv 2023/] (under review)
 
 {{<a id="collabs"></a>}}
 == Collaborators
