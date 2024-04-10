@@ -8,17 +8,19 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> -->
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 '-apple-system',BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#f5f5f5;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}h1,h2,h3,h4,h5,strong,b{font-size:inherit;font-weight:600}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{padding:.1rem;border:none}ul{list-style-type:none}ul,ol{padding-left:0.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto;text-align:justify}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #464646;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%;li::before {content: attr(data-bullet) " ";font-weight: bold;}}</style>
+            <link rel="stylesheet" href="stylesheet.css"> 
+            <!-- taken from  https://github.com/canhtran/maverick/tree/main thank you!-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
     </head>
     <body>
         <main id="main">
             <div class="content">
-                <header>
+                <header style="padding-bottom:40px">
                     <p style="padding: 0;margin: 0;">
                         <a href="/">
                         <b>Alex<s>andru</s> Meterez</b>
-                        </a>
+                        </a> &mdash; <span class="email">ameterez [at] ethz [dot] ch </span>
                     </p>
                     <ul style="padding: 0;margin: 0;">
                         <li class="">
@@ -27,30 +29,51 @@
                         <li class="">
                             <a href="https://scholar.google.com/citations?hl=en&user=wSrCMa4AAAAJ&view_op=list_works&sortby=pubdate"><span><i class="ai ai-google-scholar-square ai-2x"></i></span></a>              
                         </li>
+
+                        <li class="">
+                            <a href="https://twitter.com/alexmeterez"><span><i class="fa fa-twitter" style="font-size:34px"></i></span></a>              
+                        </li>
                     </ul>
-                    
                 </header>
                 
                 <img class="avatar" src="images/me.png" alt="avatar">
-                <div><h2>Hey, I'm Alex, </h2>
-                </div>
-                
-
-                <p>and I am an incoming CS PhD student at Harvard in the <a href="https://pehlevan.seas.harvard.edu/">Pehlevan Group</a>. My main interests are in Deep Learning theory and neural network optimization. </p>
-                <p>I aim to understand how these models learn from data by developing a theoretical framework backed by empirical evidence. My research philosophy is to balance theoretical rigor while still providing strong intuitions for observed phenomena. </p>
-                <p>I finished my Data Science MSc at <a href="https://ethz.ch/">ETH Zurich</a> working with Gunnar Rätsch and my CS BSc at <a href="https://upb.ro/en/">UPB</a> working with Iuliu Vasilescu. I also interned in <a href="ameterez.pdf">various places</a>.</p>
+                <p><b>Hey, I'm Alex</b>, and I am an incoming CS PhD student at Harvard in the <a href="https://pehlevan.seas.harvard.edu/" class="normal-link">Pehlevan Group</a>. My main interests are in Deep Learning theory and neural network optimization. </p>
+                <p>I aim to understand how these models learn from data by developing a theoretical framework backed by empirical evidence. My research philosophy is to balance theoretical rigor with providing strong intuitions for observed phenomena. </p>
+                <p>I finished my Data Science MSc at <a href="https://ethz.ch/" class="normal-link">ETH Zurich</a> working with Gunnar Rätsch and my CS BSc at <a href="https://upb.ro/en/" class="normal-link">UPB</a> working with Iuliu Vasilescu. I also interned in <a href="ameterez.pdf" class="normal-link">various places</a>.</p>
+            </div>
+            
+            <div class="content">
+                <h3>Recent news</h3>
+                <section>
+                    <p>
+                        <time class="g time"><b>Apr. 8, 2024</b></time>&nbsp; I will be attending <b>ICLR 2024</b> in Vienna this year. Let me know if you want to meet!</a>
+                      <p>
+                    <p>
+                      <time class="g time"><b>Apr. 7, 2024</b></time>&nbsp; I am going to start my CS PhD in the <a href="https://pehlevan.seas.harvard.edu/" class="normal-link">Pehlevan Group</a> at Harvard in Fall 2024!</a>
+                    <p>
+                    <p>
+                        <time class="g time"><b>Nov. 15, 2023</b></time>&nbsp; Starting my internship at <a href="https://is.mpg.de/" class="normal-link">MPI-IS</a> with <a href="http://orvi.altervista.org/" class="normal-link">Antonio Orvieto!</a>
+                    <p>
+                </section>
+                <hr class="hr-list" style="padding: 0;margin: 0;">
             </div>
 
             <div class="content">
-                <h1>Preprints (*: signifies equal contribution)</h1>
+                <h3>Preprints (*: equal contribution)</h3>
                 <ul>
-                    <li><b>[arXiv]</b><a href="https://arxiv.org/abs/2402.17457"> Towards training without depth limits: Batch normalization without gradient explosion</a><br>L. Noci*, A. Meterez*. T. Hofmann, A. Orvieto</li>
+                    <li><b class="conf">[arXiv]</b> <a href="https://arxiv.org/abs/2402.17457" class="normal-link">Towards training without depth limits: Batch normalization without gradient explosion</a><br><i>L. Noci*, A. Meterez*. T. Hofmann, A. Orvieto</i></li>
                 </ul>
-                <h1>Selected publications</h1>
+                <h3>Selected publications</h3>
                 <ul>
-                    <li><b>[ICLR24]</b> <a href="https://arxiv.org/abs/2310.02012">Towards Training Without Depth Limits: Batch Normalization Without Gradient Explosion</a><br>A. Meterez*, A. Joudaki*, F. Orabona, A. Immer, G. Rätsch, H. Daneshmand</li>
-                    <li><b>[RECOMB23]</b> <a href="https://genome.cshlp.org/content/early/2023/04/18/gr.277659.123.abstract">Aligning distant sequences to graphs using long seed sketches</a><br>A. Joudaki*, A. Meterez*, H.Mustafa. R. Groot Koerkamp, A. Kahles, G. Rätsch</li>
+                    <li><b class="conf">[ICLR24]</b> <a href="https://arxiv.org/abs/2310.02012" class="normal-link">Towards Training Without Depth Limits: Batch Normalization Without Gradient Explosion</a><br><i>A. Meterez*, A. Joudaki*, F. Orabona, A. Immer, G. Rätsch, H. Daneshmand</i></li>
+                    <li><b class="conf">[RECOMB23]</b> <a href="https://genome.cshlp.org/content/early/2023/04/18/gr.277659.123.abstract" class="normal-link">Aligning distant sequences to graphs using long seed sketches</a><br><i>A. Joudaki*, A. Meterez*, H.Mustafa. R. Groot Koerkamp, A. Kahles, G. Rätsch</i></li>
                 </ul>
+            </div>
+
+            <div class="content">
+                <h3> Misc. </h3>
+                <p>I was born in Romania. I used to do a lot of <a href="https://github.com/alexandrumeterez/">systems programming</a> back in my BSc years. I am also an advocate of open-source software. Some of my hobbies are running, reading, swimming, and since I mostly commute by bike, bike fixing.</p>
+                <p class="small">parts of this website are borrowed from <a href="https://github.com/canhtran/maverick/tree/main">this work</a></p>
             </div>
         </main>
     </body>
