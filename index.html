@@ -103,7 +103,14 @@
 
     /* ✅ phone friendliness */
     @media (max-width: 700px){
-      header{ flex-direction: column; align-items: flex-start; }
+      header{ flex-direction: column; align-items: flex-start; gap: 6px; margin-bottom: 4px; }
+
+      /* name on one line, email on its own unbroken line below, links flush-left */
+      .name-line{ line-height: 1.35; }
+      .name-line .dash{ display: none; }
+      .name-line .email{ display: block; white-space: nowrap; margin-top: 2px; }
+      .icons{ gap: 2px; margin-left: -10px; }
+      .intro{ margin-top: 10px; }
 
       /* Mobile: keep photo on the right, let text start beside it (no weird whitespace) */
       .intro{
@@ -191,7 +198,7 @@
       <div>
         <p class="name-line">
           <a href="/"><b>Alex Meterez</b></a>
-          <span class="email">&mdash; ameterez [at] g [dot] harvard [dot] edu</span>
+          <span class="email"><span class="dash">&mdash; </span>ameterez [at] g [dot] harvard [dot] edu</span>
         </p>
       </div>
 
