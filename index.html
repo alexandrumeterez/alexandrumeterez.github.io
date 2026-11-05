@@ -40,6 +40,8 @@
     p{ margin: 0 0 12px; }
 
     a{ color:var(--link); text-decoration:none; border-radius: 6px; padding: 0 2px; }
+    /* links keep their hover padding but sit flush with the text column */
+    .name-line a{ margin-left: -2px; margin-right: -2px; }
     a:hover{ color:var(--link-hover); background: var(--hoverbg); text-decoration:none; }
 
     main{
@@ -189,6 +191,7 @@
     .divider{ height:2px; background:#cbd5e1; margin: 16px 0 28px; }
     .divider + .section{ margin-top: 0; }
     .divider + .section h4{ margin-top: 0; }
+    .paper .paper-title{ margin-left: -2px; margin-right: -2px; }
   </style>
 </head>
 
