@@ -162,13 +162,29 @@
     }
     .paper:first-of-type{ border-top: none; }
 
-    /* ✅ keep conf tag on its own line */
+    /* Keep conference badges compact and on their own line. */
     .conf-tag{
       display:block;
+      width:fit-content;
+      max-width:100%;
+      box-sizing:border-box;
+      padding: 2px 7px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      background: var(--soft);
       font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
       color: var(--muted);
       margin-bottom: 6px;
     }
+    .conf-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:6px;
+      margin-bottom:6px;
+    }
+    .conf-tags .conf-tag{ margin-bottom:0; }
 
     .paper-title{
       display:block;
@@ -273,7 +289,10 @@
       </div>
 
       <div class="paper">
-        <span class="conf-tag">NeurIPS 2026, HiLD (Oral) @ ICML 2026</span>
+        <div class="conf-tags">
+          <span class="conf-tag">NeurIPS 2026</span>
+          <span class="conf-tag">HiLD (Oral) @ ICML 2026</span>
+        </div>
         <div class="paper-title-row">
           <a class="paper-title" href="https://arxiv.org/abs/2606.19179" target="_blank" rel="noreferrer">
             Compute Efficiency and Serial Runtime Tradeoffs for Stochastic Momentum Methods
